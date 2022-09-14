@@ -1,0 +1,392 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Arial,sans-serif;
+	background-color: #F6F5F4;
+}
+
+.main {
+	width: 70%;
+	height: 1400px;
+	margin: auto;
+	margin-top: 2%;
+}
+
+.general {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+}
+
+.columna1 {
+	width: 28%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+.columna2 {
+	width: 68%;
+	height: 100%;
+	margin-top: 1%;
+}
+
+.bloque1 {
+	width: 100%;
+	height: 22%;
+	display: flex;
+	justify-content: center;
+	border-radius: 20px;
+}
+
+.fotoperfil {
+	width: 100%;
+	border-radius: 50%;
+	align-self: center;
+}
+
+.bloque2 {
+	width: 100%;
+	height: 25%;
+	background: #D54A3F;
+	border-radius: 20px;
+	display: flex;
+}
+
+.competencias {
+	background: #D54A3F;
+	width: 70%;
+	margin: auto;
+}
+
+.competencias p {
+	background: #D54A3F;
+	color: #FBFFFB;
+	line-height: 190%;
+	font-size: 17px;
+
+}
+
+.bloque2 h3 {
+	letter-spacing: 4px;
+	background: #D54A3F;
+	color: #FBFFFB;
+	
+}
+
+.bloque2 hr {
+	margin-bottom: 15%;
+	width: 100%;
+}
+
+.bloque3 {
+	width: 100%;
+	height: 35%;
+	background: #F9EFE5;
+	border-radius: 20px;
+	display: flex;
+	align-content: center;
+}
+
+.contacto {
+	background: #F9EFE5;
+	width: 80%;
+	margin: auto;
+	height: 80%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.datosdecontacto {
+	height: 20%;
+	background: #F9EFE5;
+}
+
+.contacto h3 {
+	background: #F9EFE5;
+	text-align: center;
+	line-height: 130%;
+}
+
+.contacto p {
+	background: #F9EFE5;
+	line-height: 190%;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 5%;
+	align-self: center;
+}
+
+.contacto hr {
+	width: 100%;
+}
+
+.iconocontacto {
+	width: 35px;
+	height: 35px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	background: #F9EFE5;
+}
+
+.icono-texto {
+	background: #F9EFE5;
+	width: 100%;
+	height: 15%;
+	display: flex;
+}
+
+.bloque4 {
+	width: 100%;
+	height: 10%;
+	background: #6B6E6E;
+	border-radius: 20px;
+	display: flex;
+}
+
+h1 {
+	font-size: 40px;
+	color: #D54A3F;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+}
+
+.descripcion {
+	line-height: 140%;
+	font-size: 18px;
+	font-family: 'Anonymous Pro', monospace;
+}
+
+p {
+	font-size: 16px;
+	line-height: 140%;
+	margin-bottom: 2px;
+	font-family: 'Anonymous Pro', monospace;
+}
+
+hr {
+	border-color: #F6F5F4;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width: 70%;
+}
+
+.titulo-descripcion {
+	margin-bottom: 30px;
+}
+
+.experiencia {
+	margin-top: 10px;
+}
+
+.educacion {
+	margin-top: 20px;
+}
+
+h3 {
+	color: #D54A3F;
+	font-family: 'Anonymous Pro', monospace;
+	font-weight: bold;
+	font-size: 21px;
+	letter-spacing: 8px;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.puntorojo {
+	height: 20px;
+	width: 20px;
+}
+
+.puntonegro {
+	height: 10px;
+	width: 10px;
+	display: block;
+	margin-top: 105%;
+	margin-left: 50%;
+	align-self: right;
+}
+
+.epigrafe {
+	font-size: 14px;
+	margin-bottom: 5px;
+	margin-top: 3px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.puntos {
+	width: 5%;
+}
+
+.texto {
+	width: 90%;
+}
+
+.puntos-texto {
+	display: flex;
+	margin-top: 3%;
+}
+
+.puntonegro2 {
+	height: 10px;
+	width: 10px;
+	display: block;
+	margin-top: 20%;
+	margin-left: 50%;
+}
+
+.puntonegro3 {
+	height: 10px;
+	width: 10px;
+	display: block;
+	margin-top: 43%;
+	margin-left: 50%;
+}
+
+@media screen and (max-width: 580px) {
+
+.main {
+	max-width: 580px;
+	width: 100%;
+	}
+
+.general {
+	display: inline-block;
+	width: 100%;
+
+}
+
+.bloque1 {
+width: 44%;
+height: 100%;
+background: none;
+display: flex;
+justify-content: center;
+background: #F9EFE5;
+}
+
+.fotoperfil {
+	width: 90%;
+}
+
+.bloque2 {
+	width: 55%;
+	height: 40%;
+	align-self: top;
+	border-radius: 20px;
+	display: none
+}
+
+.competencias {
+	width: 100%;
+	height: 100%;
+}
+
+.competencias hr {
+	display: none;
+}
+
+.competencias h3 {
+	display: none;
+}
+
+.competencias p {
+	font-size: 15px;
+	line-height: 150%;
+}
+
+.bloque3 {
+	width: 50%;
+	height: 100%;
+	border-radius: 20px;
+	align-self: center;
+}
+
+.datosdecontacto {
+	display: none;
+}
+
+.bloque4 {
+	display: none;
+}
+
+.columna1 {
+	width: 93%;
+	height: 17%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	background: #F9EFE5;
+	border-radius: 20px;
+	flex-wrap: nowrap;
+}
+
+.contacto {
+	width: 100%;
+	height: 80%;
+	border-radius: 20px;
+}
+
+.icono-texto {
+	width: 100%;
+	padding-left: 5%;
+	border-radius: 20px;
+	height: 22%;
+}
+
+.iconocontacto {
+	height: 30px;
+	width: 30px;
+}
+
+.columna2 {
+	width: 93%;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.puntonegro {
+	margin-top: 125%;
+	margin-left: 40%;
+}
+
+.puntonegro2 {
+	margin-left: 40%;
+}
+
+.puntonegro3 {
+	margin-left: 40%;
+	margin-top: 49%;
+}
+
+p {
+	font-size: 15px;
+}
+
+.descripcion {
+	line-height: 125%;
+	font-size: 17px;
+}
+
+section {
+	width: 100%;
+}
+
+}
+
+
+
