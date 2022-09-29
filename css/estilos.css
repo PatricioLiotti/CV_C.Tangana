@@ -352,6 +352,10 @@ background: #F9EFE5;
 	height: 22%;
 }
 
+.icono-texto p {
+	font-size: 14px;
+}
+
 .iconocontacto {
 	height: 30px;
 	width: 30px;
