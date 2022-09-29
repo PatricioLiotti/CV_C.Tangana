@@ -7,7 +7,7 @@
 }
 
 .main {
-	width: 70%;
+	width: 80%;
 	height: 1400px;
 	margin: auto;
 	margin-top: 2%;
@@ -57,7 +57,7 @@
 
 .competencias {
 	background: #D54A3F;
-	width: 70%;
+	width: 80%;
 	margin: auto;
 }
 
@@ -66,14 +66,13 @@
 	color: #FBFFFB;
 	line-height: 190%;
 	font-size: 17px;
-
 }
 
 .bloque2 h3 {
 	letter-spacing: 4px;
 	background: #D54A3F;
 	color: #FBFFFB;
-	
+	text-align: center;
 }
 
 .bloque2 hr {
@@ -257,7 +256,7 @@ h4 {
 	margin-left: 50%;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
 
 .main {
 	max-width: 580px;
@@ -384,6 +383,40 @@ p {
 
 section {
 	width: 100%;
+}
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+
+.main {
+	max-width: 1000px;
+	width: 95%;
+	}
+
+.descripcion {
+	font-size: 16px;
+}
+
+.columna1 h3 {
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+.competencias h3 {
+	letter-spacing: 2px;
+}
+
+.competencias p {
+	font-size: 15px;
+}
+
+.competencias {
+	width: 80%;
+}
+
+.contacto p {
+	font-size: 14px;
 }
 
 }
